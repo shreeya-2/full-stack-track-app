@@ -1,0 +1,38 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+
+.homepage {
+  &__background {
+    width: 100%;
+  }
+
+  &__header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: $primary-color;
+    z-index: 1;
+    font-size: 6rem;
+    text-align: right;
+    position: relative;
+    top: -28rem;
+    padding-right: 2rem;
+  }
+
+  &__subheader {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffc518;
+    z-index: 1;
+    font-size: 2rem;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+    top: -33rem;
+    padding-right: 2rem;
+    &--focus {
+      color: $primary-color;
+    }
+  }
+}

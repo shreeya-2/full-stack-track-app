@@ -1,0 +1,9 @@
+@use "./styles/variables" as *;
+@use "./styles/typography" as *;
+* {
+  font-family: $primary-font;
+}
+
+.app {
+  background-color: $background-color;
+}
